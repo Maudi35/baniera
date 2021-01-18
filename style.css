@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+
+/* GLOBAL */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Style the navigation menu */
+.topnav {
+    overflow: hidden;
+    background-color: #FCFCFC;
+    position: relative;
+  }
+  
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+    display: none;
+  }
+  
+/* Style navigation menu links */
+.topnav a {
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+/* Style the hamburger menu */
+.topnav a.icon {
+    background: #FCFCFC;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+
+/* MAIN */
+
+.baniera img {
+    width: 100%; 
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+}  
+
+.article {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.selection {
+    background-color: blue; 
+    border: 1px solid grey;
+}
+
+.measure {
+    background-color: grey; 
+    border: 1px solid grey;
+}
+
+.project {
+    background-color: pink; 
+    border: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+}
+
+.nouveautes {
+    background-color: purple;
+    border: 1px solid grey;
+}
+
+.showroom {
+    background-color: salmon;
+    border: 1px solid grey;
+}
+
+.blog {
+    background-color: sienna;
+    border: 1px solid grey;
+}
+
+footer {
+    height: 10vh;
+    background-color: teal;
+}
+
+/* RESPONSIVE */
+
+@media screen and (min-width: 1024px) {
+
+}
+
